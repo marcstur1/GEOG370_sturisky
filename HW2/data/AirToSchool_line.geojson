@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "AirToSchool_line",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 3 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -9010505.149198425933719, 4194106.657435338012874 ], [ -8992231.036837603896856, 4185413.147671451792121 ] ] ] } }
+]
+}
