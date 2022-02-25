@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOG 370 HW</title>
+</head>
+<body>
+    <h2>Homework 6, Part 2: 3 Different Modes for Data Categorization</h2>
+
+    <h4>I took from the census the total number of people in each county along with the number of people in each county with graduate or professional degrees. Dividing the number of people with grad degrees by the total, gave me a ratio that I could then multiply by 100,000 for data purposes. I was interested in calculating this ratio because I expected it to be common in highly populated counties such as Wake and Mecklenburg for more residents to have graduate degrees, but I wanted to see if there was a deviation as a result of giving smaller counties more emphasis through these ratios. </h4>
+
+    <a href="./images/natural_breaks.png">
+    <img src="./images/natural_breaks.png" alt="Natural Breaks Mode" width='500px'>
+
+    </a>
+    <h4>Natural breaks is a classification that strives to minimize the variation of data within each class. This means that other classifications will have classes that fit data with larger deviations from one other. A con is that the outlier data has a noticable huge range in variation within its class, which contradicts the ideas behind this classification. </h4>
+
+    <a href="./images/equal_count.png">
+    <img src="./images/equal_count.png" alt="Equal Count Mode" width='500px'>
+
+    </a>
+    <h4>This classification attempts to have the choropleth's classification of North Carolina's split up as evenly as possible. This classification is great for wanting to keep the classes of various ranges as equal as possible. However, if you want some classes to have more emphasis than others, this is not the right classification. </h4>
+
+    <a href="./images/pretty_break.png">
+    <img src="./images/pretty_break.png" alt="Pretty Breaks Mode" width='500px'>
+
+    </a>
+    <h4>The pretty breaks classification will round break points to whole numbers.</h4>
+
+    <h2>Data used for this project:</h2>
+    <a href="https://github.com/marcstur1/GEOG370_sturisky/blob/main/HW6/data/nc_counties.geojson"> Link to geoJSON on Github</a>
+    <p></p>
+    <a href="https://github.com/marcstur1/GEOG370_sturisky/blob/main/HW6/data/NC_Education_Cleaned.csv"> Link to cleaned csv dataset on Github</a>
+</body>
+</html>
