@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOG 370 HW</title>
+</head>
+<body>
+    <h2>Homework 8</h2>
+
+    <h4> My real-life question that I attempt to answer through both geoprocessing and my maps below is "How close in proximity are Greater Atlanta Region train stations to Fulton County poll sites?" </h4>
+
+    <h4>The first map below demonstrates the entire Atlanta region:</h4>
+
+    <a href="./maps/HW8-County2.png">
+    <img src="./maps/HW8-County2.png" alt="Map of Greater Atlanta Region" width=500x>
+
+ </a>
+ <h4>As you can see, the poll sites are strictly in Fulton county while train stations extended out into border counties. The below map is focused on where these two pieces of data intersected.</h4>
+
+ <a href="./maps/HW8-geoprocessed.png">
+ <img src="./maps/HW8-geoprocessed.png" alt="Map focused on Geoprocessed Points" width=500x>
+
+ </a>
+ <h4>I put a buffer zone around all of the poll sites to represent close commutes that people can take to get to those poll sites. If a train station is located within one of thsoe buffer zones, the train station point will have a purple dot in the center of the traditional black dot. I used both the buffer and the intersect geoprocessing tools to make this possible. I found this question an interesting one, using Atlanta as the example, because it is so important to be a voting citizen and should be made as easy as possible. I wanted to see if Atlanta train stations were close so that poll sites were easily both to and from them for someone that relies on public transportation. </h4>
+
+ <h2>All data used for this project:</h2>
+ <a href="https://gisdata.fultoncountyga.gov/">Fulton County GIS Data</a>
+    
+</body>
+</html>
